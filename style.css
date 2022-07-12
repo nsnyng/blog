@@ -20,7 +20,7 @@ a {
 
 header {
     margin-bottom: 100px;
-    grid-template-columns: 170px 1fr;
+    grid-template-columns: 0.7fr 0.1fr 1fr;
     display: grid;
     position: sticky;
 }
@@ -58,4 +58,19 @@ article {
 
 h1 {
     font-size: 32px;
+}
+/*#header-mode-changer button{
+    width: 50px;
+    height: 35px;
+    display: inline-block;
+    margin-top: 25px;
+    border: none;
+    color: white;
+    background-color: #181a1b;
+    
+    
+}*/
+
+#btn{
+    color: white;
 }
